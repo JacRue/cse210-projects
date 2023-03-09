@@ -49,7 +49,8 @@ public class ReflectingActivity
     static int GetDuration()
     {
         Console.Write("Enter the duration of the activity in seconds: ");
-        return int.Parse(Console.ReadLine());
+        int.Parse(Console.ReadLine());
+        return 10;
     }
 
     static void Pause(int seconds)

@@ -4,7 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        while (true)
+        Boolean next = true;
+        while (next)
         {
             Console.Clear();
             Console.WriteLine("Menu Options: ");
@@ -29,6 +30,7 @@ class Program
                     listingActivity.StartListingActivity();
                     break;
                 case 4:
+                    next = false;
                     Console.WriteLine("Have a great day....");
                     return;
                 default:
